@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnService.Web", "HandsOnService.Web\HandsOnService.Web.csproj", "{EE34A9CB-EC82-4B48-9565-894F3C578640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C8C643E-5F0A-496B-9BE6-1DECC04112E1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnService.AppHost", "HandsOnService.AppHost\HandsOnService.AppHost.csproj", "{30726246-72E3-4CDD-8AA4-EEE689650772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnService.ServiceDefaults", "HandsOnService.ServiceDefaults\HandsOnService.ServiceDefaults.csproj", "{8FE9937F-CDFA-4795-BA52-ADAF9EA37FFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnService.Domain", "HandsOnService.Domain\HandsOnService.Domain.csproj", "{EA764A7B-42AA-41C8-AA5F-0557BF2EBEE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnService.Core", "HandsOnService.Core\HandsOnService.Core.csproj", "{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE34A9CB-EC82-4B48-9565-894F3C578640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE34A9CB-EC82-4B48-9565-894F3C578640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE34A9CB-EC82-4B48-9565-894F3C578640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE34A9CB-EC82-4B48-9565-894F3C578640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30726246-72E3-4CDD-8AA4-EEE689650772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30726246-72E3-4CDD-8AA4-EEE689650772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30726246-72E3-4CDD-8AA4-EEE689650772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30726246-72E3-4CDD-8AA4-EEE689650772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE9937F-CDFA-4795-BA52-ADAF9EA37FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE9937F-CDFA-4795-BA52-ADAF9EA37FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE9937F-CDFA-4795-BA52-ADAF9EA37FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE9937F-CDFA-4795-BA52-ADAF9EA37FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA764A7B-42AA-41C8-AA5F-0557BF2EBEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA764A7B-42AA-41C8-AA5F-0557BF2EBEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA764A7B-42AA-41C8-AA5F-0557BF2EBEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA764A7B-42AA-41C8-AA5F-0557BF2EBEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

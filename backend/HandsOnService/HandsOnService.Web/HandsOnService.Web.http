@@ -1,0 +1,6 @@
+@HandsOnService.Web_HostAddress = http://localhost:5162
+
+GET {{HandsOnService.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

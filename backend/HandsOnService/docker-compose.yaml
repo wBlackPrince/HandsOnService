@@ -1,0 +1,7 @@
+﻿services:
+  handsonservice.web:
+    image: handsonservice.web
+    build:
+      context: .
+      dockerfile: HandsOnService.Web/Dockerfile
+
