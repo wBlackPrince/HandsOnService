@@ -411,6 +411,43 @@
       "StyleCop.Analyzers.Unstable/1.2.0.556": {
         "type": "package"
       },
+      "HandsOnService.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/HandsOnService.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HandsOnService.Contracts.dll": {}
+        }
+      },
+      "HandsOnService.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "HandsOnService.Contracts": "1.0.0",
+          "HandsOnService.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HandsOnService.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HandsOnService.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "HandsOnService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/HandsOnService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HandsOnService.Domain.dll": {}
+        }
+      },
       "HandsOnService.ServiceDefaults/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1088,6 +1125,21 @@
         "tools/uninstall.ps1"
       ]
     },
+    "HandsOnService.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../HandsOnService.Contracts/HandsOnService.Contracts.csproj",
+      "msbuildProject": "../HandsOnService.Contracts/HandsOnService.Contracts.csproj"
+    },
+    "HandsOnService.Core/1.0.0": {
+      "type": "project",
+      "path": "../HandsOnService.Core/HandsOnService.Core.csproj",
+      "msbuildProject": "../HandsOnService.Core/HandsOnService.Core.csproj"
+    },
+    "HandsOnService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HandsOnService.Domain/HandsOnService.Domain.csproj",
+      "msbuildProject": "../HandsOnService.Domain/HandsOnService.Domain.csproj"
+    },
     "HandsOnService.ServiceDefaults/1.0.0": {
       "type": "project",
       "path": "../HandsOnService.ServiceDefaults/HandsOnService.ServiceDefaults.csproj",
@@ -1096,6 +1148,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "HandsOnService.Core >= 1.0.0",
       "HandsOnService.ServiceDefaults >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.2",
       "StyleCop.Analyzers >= 1.2.0-beta.556"
@@ -1135,6 +1188,9 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
+            "D:\\MyWebApplications\\HandsOn\\backend\\HandsOnService\\HandsOnService.Core\\HandsOnService.Core.csproj": {
+              "projectPath": "D:\\MyWebApplications\\HandsOn\\backend\\HandsOnService\\HandsOnService.Core\\HandsOnService.Core.csproj"
+            },
             "D:\\MyWebApplications\\HandsOn\\backend\\HandsOnService\\HandsOnService.ServiceDefaults\\HandsOnService.ServiceDefaults.csproj": {
               "projectPath": "D:\\MyWebApplications\\HandsOn\\backend\\HandsOnService\\HandsOnService.ServiceDefaults\\HandsOnService.ServiceDefaults.csproj"
             }

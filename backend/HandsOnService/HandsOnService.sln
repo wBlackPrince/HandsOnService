@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnService.Domain", "Ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnService.Core", "HandsOnService.Core\HandsOnService.Core.csproj", "{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandsOnService.Contracts", "HandsOnService.Contracts\HandsOnService.Contracts.csproj", "{19EAC8EF-7590-416F-AA16-F081BEC80555}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,9 @@ Global
 		{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F38E8D6-A14D-4B8A-9B5E-981143A62A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EAC8EF-7590-416F-AA16-F081BEC80555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EAC8EF-7590-416F-AA16-F081BEC80555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EAC8EF-7590-416F-AA16-F081BEC80555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EAC8EF-7590-416F-AA16-F081BEC80555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

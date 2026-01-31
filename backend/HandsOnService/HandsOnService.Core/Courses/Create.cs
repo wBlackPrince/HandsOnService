@@ -1,5 +1,23 @@
-﻿namespace HandsOnService.Core.Courses;
+﻿using HandsOnService.Contracts;
+using HandsOnService.Domain;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Routing;
 
-public class Create
+namespace HandsOnService.Core.Courses;
+
+public class Create: IEndpoint
 {
+    public void MapEndpoint(IEndpointRouteBuilder app)
+    {
+        app.MapPost("courses", async (CreateCourseRequest request, CancellationToken cancellationToken) =>
+        {
+            Course course = Course.Create(request.Name, request.Description, request.Author);
+
+            CreateCourseResponse response = new CreateCourseResponse(
+                course.Id,
+                course.Name,
+                course.Description,
+                course.Author);
+        });
+    }
 }

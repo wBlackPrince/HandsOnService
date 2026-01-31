@@ -25,7 +25,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HandsOnService.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be71a61c28ed69b8da5098b7a611f530ca2565ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("HandsOnService.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HandsOnService.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

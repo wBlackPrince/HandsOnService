@@ -1,4 +1,5 @@
 using HandsOnService.ServiceDefaults;
+using HandsOnService.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,5 +20,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.MapEndpoints();
 
 app.Run();

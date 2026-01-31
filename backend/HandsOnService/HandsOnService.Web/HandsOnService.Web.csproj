@@ -15,6 +15,7 @@
     </ItemGroup>
   
     <ItemGroup>
+      <ProjectReference Include="..\HandsOnService.Core\HandsOnService.Core.csproj" />
       <ProjectReference Include="..\HandsOnService.ServiceDefaults\HandsOnService.ServiceDefaults.csproj" />
     </ItemGroup>
 

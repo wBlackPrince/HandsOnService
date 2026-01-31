@@ -9,16 +9,17 @@ public class Course
     // Ef Core
     private Course() { }
 
-    private Course(Guid id, string name, string author)
+    private Course(string name, string description, string author)
     {
-        Id = id;
+        Id = Guid.NewGuid();
         Name = name;
+        Description = description;
         Author = author;
     }
 
-    public static Course Create(Guid id, string name, string author)
+    public static Course Create(string name, string description, string author)
     {
-        return new(id, name, author);
+        return new(name, description, author);
     }
 
     public Guid Id { get; private set; }
@@ -31,5 +32,7 @@ public class Course
 
     public IReadOnlyCollection<Module> Modules => _modules;
 
+
     public void AddModule(Module module) => _modules.Add(module);
 }
+

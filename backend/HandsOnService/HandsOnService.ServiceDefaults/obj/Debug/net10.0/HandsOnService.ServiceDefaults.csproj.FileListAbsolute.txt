@@ -1,0 +1,13 @@
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\bin\Debug\net10.0\HandsOnService.ServiceDefaults.deps.json
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\bin\Debug\net10.0\HandsOnService.ServiceDefaults.dll
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\bin\Debug\net10.0\HandsOnService.ServiceDefaults.pdb
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\HandsOnService.ServiceDefaults.csproj.AssemblyReference.cache
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\HandsOnService.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\HandsOnService.ServiceDefaults.AssemblyInfoInputs.cache
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\HandsOnService.ServiceDefaults.AssemblyInfo.cs
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\HandsOnService.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\HandsOnService.ServiceDefaults.sourcelink.json
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\HandsOnService.ServiceDefaults.dll
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\refint\HandsOnService.ServiceDefaults.dll
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\HandsOnService.ServiceDefaults.pdb
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.ServiceDefaults\obj\Debug\net10.0\ref\HandsOnService.ServiceDefaults.dll

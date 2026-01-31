@@ -1,0 +1,12 @@
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\bin\Debug\net10.0\HandsOnService.Contracts.deps.json
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\bin\Debug\net10.0\HandsOnService.Contracts.dll
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\bin\Debug\net10.0\HandsOnService.Contracts.pdb
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\HandsOnService.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\HandsOnService.Contracts.AssemblyInfoInputs.cache
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\HandsOnService.Contracts.AssemblyInfo.cs
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\HandsOnService.Contracts.csproj.CoreCompileInputs.cache
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\HandsOnService.Contracts.sourcelink.json
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\HandsOnService.Contracts.dll
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\refint\HandsOnService.Contracts.dll
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\HandsOnService.Contracts.pdb
+D:\MyWebApplications\HandsOn\backend\HandsOnService\HandsOnService.Contracts\obj\Debug\net10.0\ref\HandsOnService.Contracts.dll
