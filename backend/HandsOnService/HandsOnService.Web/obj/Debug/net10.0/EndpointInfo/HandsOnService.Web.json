@@ -1,0 +1,74 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "HandsOnService.Web | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:56369"
+    },
+    {
+      "url": "http://localhost:56371"
+    }
+  ],
+  "paths": {
+    "/courses": {
+      "post": {
+        "tags": [
+          "HandsOnService.Web"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCourseRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateCourseRequest": {
+        "required": [
+          "name",
+          "description",
+          "author"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "HandsOnService.Web"
+    }
+  ]
+}

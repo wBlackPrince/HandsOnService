@@ -167,7 +167,10 @@
           "OpenTelemetry.Instrumentation.AspNetCore": "1.14.0",
           "OpenTelemetry.Instrumentation.Http": "1.14.0",
           "OpenTelemetry.Instrumentation.Runtime": "1.14.0",
-          "StyleCop.Analyzers": "1.2.0-beta.556"
+          "Scalar.AspNetCore": "2.12.41",
+          "StyleCop.Analyzers": "1.2.0-beta.556",
+          "Swashbuckle.AspNetCore.ReDoc": "10.1.3",
+          "Swashbuckle.AspNetCore.SwaggerUI": "10.1.3"
         },
         "imports": [
           "net461",
@@ -188,7 +191,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

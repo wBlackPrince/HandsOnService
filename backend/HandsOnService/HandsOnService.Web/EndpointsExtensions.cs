@@ -4,7 +4,6 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace HandsOnService.Web;
 
-
 public static class EndpointsExtensions
 {
     /*
@@ -21,8 +20,8 @@ public static class EndpointsExtensions
     {
         ServiceDescriptor[] serviceDescriptors = assembly
             .DefinedTypes
-            .Where(type => type is { IsAbstract: false, IsInterface: true } &&
-                           type.IsAssignableFrom(typeof(IEndpoint)))
+            .Where(type => type is { IsAbstract: false, IsInterface: false } &&
+                           type.IsAssignableTo(typeof(IEndpoint)))
             .Select(type => ServiceDescriptor.Transient(typeof(IEndpoint), type))
             .ToArray();
 
@@ -55,6 +54,11 @@ public static class EndpointsExtensions
         {
             endpoint.MapEndpoint(builder);
         }
+
+        app.Logger.LogInformation($"IEndpoint count = {endpoints.Count()}");
+        foreach (var e in endpoints)
+            app.Logger.LogInformation(e.GetType().FullName);
+
 
         return app;
     }

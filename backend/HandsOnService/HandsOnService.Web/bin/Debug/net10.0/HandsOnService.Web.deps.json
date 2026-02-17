@@ -10,7 +10,10 @@
         "dependencies": {
           "HandsOnService.Core": "1.0.0",
           "HandsOnService.ServiceDefaults": "1.0.0",
-          "Microsoft.AspNetCore.OpenApi": "10.0.2"
+          "Microsoft.AspNetCore.OpenApi": "10.0.2",
+          "Scalar.AspNetCore": "2.12.41",
+          "Swashbuckle.AspNetCore.ReDoc": "10.1.3",
+          "Swashbuckle.AspNetCore.SwaggerUI": "10.1.3"
         },
         "runtime": {
           "HandsOnService.Web.dll": {}
@@ -262,6 +265,30 @@
           }
         }
       },
+      "Scalar.AspNetCore/2.12.41": {
+        "runtime": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "assemblyVersion": "2.12.41.0",
+            "fileVersion": "2.12.41.0"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.ReDoc/10.1.3": {
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.ReDoc.dll": {
+            "assemblyVersion": "10.1.3.0",
+            "fileVersion": "10.1.3.2229"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/10.1.3": {
+        "runtime": {
+          "lib/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "10.1.3.0",
+            "fileVersion": "10.1.3.2229"
+          }
+        }
+      },
       "HandsOnService.Contracts/1.0.0": {
         "runtime": {
           "HandsOnService.Contracts.dll": {
@@ -482,6 +509,27 @@
       "sha512": "sha512-ehTImQ/eUyO07VYW2WvwSmU9rRH200SKJ/3jku9rOkyWE0A2JxNFmAVms8dSn49QLSjmjFRRSgfNyOgr/2PSmA==",
       "path": "polly.ratelimiting/8.4.2",
       "hashPath": "polly.ratelimiting.8.4.2.nupkg.sha512"
+    },
+    "Scalar.AspNetCore/2.12.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uO90maY4ayqLHq+LFPKgRxPBlI8GPYOLLv5VkPvenG75p7pQ8lUb3jpQWxe02GeKgivyxlxJ1tNsIlCpHg1S6w==",
+      "path": "scalar.aspnetcore/2.12.41",
+      "hashPath": "scalar.aspnetcore.2.12.41.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.ReDoc/10.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n3VHk46VKYqfdITeIWRxs+KGUJy1R20axc7XkdTFaSrMoMX6PE8vBlTjrzlw6m9/pVHABWiO+kxH6jbGmMymVg==",
+      "path": "swashbuckle.aspnetcore.redoc/10.1.3",
+      "hashPath": "swashbuckle.aspnetcore.redoc.10.1.3.nupkg.sha512"
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/10.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vraEBz1/68+DTd0utiGvjYt1BqCoSY0RqFk0jJaxvrFwO/alL9VlsYOgNNGnbFH8fJksPfVdNvm1qJ4A+qBSvQ==",
+      "path": "swashbuckle.aspnetcore.swaggerui/10.1.3",
+      "hashPath": "swashbuckle.aspnetcore.swaggerui.10.1.3.nupkg.sha512"
     },
     "HandsOnService.Contracts/1.0.0": {
       "type": "project",
